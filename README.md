@@ -10,7 +10,7 @@ For a grid of 200x200, with center cell having 5000 pieces of sand, simulation t
 
 Without Numba: 72.46 seconds
 
-With Numbajit: 00.64 seconds
+With Numba+jit: 00.64 seconds
 
 This means that bigger grids are out of question. A grid of 640x640 with 10 million sand in the middle takes around half an hour to one hour with Numba's Jit.
 But the results can be presented in an artsy way.
