@@ -7,7 +7,9 @@ Simulation has to iterate over a grid of size AxB. And it has to run until each 
 With Python, it becomes very slow even with smaller grid sizes. Numba's GPU acceleration can be used here for immense speed gains.
 
 For a grid of 200x200, with center cell having 5000 pieces of sand, simulation takes following times.
+
 Without Numba: 72.46 seconds
+
 With Numbajit: 00.64 seconds
 
 This means that bigger grids are out of question. A grid of 640x640 with 10 million sand in the middle takes around half an hour to one hour with Numba's Jit.
