@@ -16,4 +16,5 @@ But the results can be presented in an artsy way.
 ![sandpile](https://github.com/HanTheDestroyer/Sandpile_Simulation/assets/123021973/c27729f7-c242-46e6-bbf3-7fd4ac5bab4d)
 
 Run sandpile.py for the regular version. Or,
+
 Run numba_sandpile.py for numba version then use numba_sandpile_pygame to show the results on the screen.
