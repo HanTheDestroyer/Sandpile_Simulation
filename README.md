@@ -4,7 +4,7 @@ Shows the results of Sandpile Simulations with and without Numba
 Related Numberphile video: https://www.youtube.com/watch?v=1MtEUErz7Gg
 
 Simulation has to iterate over a grid of size AxB. And it has to run until each cell of the mentioned grid has less than four pieces of sand.
-With Python, it becomes very slow even with smaller grid sizes. Numba's GPU acceleration can be used here for immense speed gains.
+With Python, it becomes very slow even with smaller grid sizes. Numba's jit acceleration can be used here for immense speed gains.
 
 For a grid of 200x200, with center cell having 5000 pieces of sand, simulation takes following times.
 
